@@ -1,0 +1,103 @@
+/* Product Count at the top of the page */
+/* Showing 1-48 of 1813 products */
+
+html {
+	font-family: sans-serif;
+	line-height: 1.2;
+}
+
+br {
+	display: block; /* makes it have a width */
+	content: ""; /* clears default height */
+	margin-top: 1.9em; /* change this to whatever height you want it */
+}
+
+.product-count {
+	font-size: 12pt;
+	text-align: left;
+}
+
+.product-count span {
+	font-weight: 800;
+}
+
+/* Sort By Selection */
+
+.sort-by {
+	position: static;
+}
+
+.sort-by p {
+	font-weight: 400;
+}
+
+.sort-by select {
+	font-weight: 800;
+	padding: 5px 5px 5px 5px;
+	margin: auto;
+	border: 1.5px solid #707070;
+}
+
+/* Game Products */
+
+.game-products {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.game {
+	border: 0.5px solid #cacaca;
+	padding: 5px 5px 5px 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.game img {
+	width: 120px;
+	margin-top: 10px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.game p {
+	font-weight: 600;
+	font-family: sans-serif
+}
+
+.game #platform {
+	margin-top: 1.5em;
+	font-weight: 800;
+	border-bottom: 1px solid #cacaca;
+	font-size: 12pt;
+	margin: auto;
+}
+
+.purchase-info p {
+	font-weight: 400;
+	font-size: 10pt;
+	padding-left: 5px;
+}
+
+.purchase-info span {
+	font-weight: 800;
+	margin-right: 14%;
+}
+
+.purchase-info .pre-order {
+	background-color: #bd1a8d;
+	color: white;
+}
+
+.purchase-info .download {
+	background-color: #2e2e2e;
+	color: white;
+}
+
+.purchase-info #release-date {
+	font-size: 10pt;
+}
